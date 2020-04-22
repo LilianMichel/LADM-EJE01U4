@@ -1,39 +1,33 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      INICIO
-    </ion-title>
+    <ion-title>newStudent</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="warning" padding>
+<ion-content color="primary" padding>
   <ion-grid>
     <form [formGroup]="myForm">
-      <ion-row color="warning" justify-content-center>
+      <ion-row color="primary" justify-content-center>
         <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
           <div text-center>
             <h3>Login</h3>
           </div>
           <div padding>
             <ion-item>
-              <ion-label>Nombre: </ion-label>
               <ion-input formControlName="name" type="text"></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Curp: </ion-label>
               <ion-input formControlName="curp" type="text"></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Número de control: </ion-label>
               <ion-input formControlName="controlnumber" type="text"></ion-input>
             </ion-item>
             <ion-item>
-              <ion-label>Edad: </ion-label>
               <ion-input formControlName="age" type="number"></ion-input>
             </ion-item>
             <ion-item>
               <ion-label>Activo</ion-label>
-              <ion-toggle formControlName="active" color="warning"></ion-toggle>
+              <ion-toggle formControlName="active" color="secondary"></ion-toggle>
             </ion-item>
           </div>
           <div padding>
